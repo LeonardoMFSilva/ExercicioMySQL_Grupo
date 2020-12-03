@@ -1,3 +1,4 @@
+use db_padaria;
 CREATE TABLE bebidas(
 	id bigint(4) auto_increment,
     descricao varchar(60),
@@ -12,4 +13,3 @@ INSERT INTO bebidas (descricao, disponivel, valor) VALUES ("Coca-cola 500ml", tr
 INSERT INTO bebidas (descricao, disponivel, valor) VALUES ("Guaraná 2l", true, 9.00);
 INSERT INTO bebidas (descricao, disponivel, valor) VALUES ("Tampico 2l", true, 7.00);
 
-select * from bebidas
